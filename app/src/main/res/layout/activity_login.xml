@@ -79,7 +79,7 @@
                 android:text="Login"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="0"
-                app:layout_constraintStart_toStartOf="0" />
+                app:layout_constraintStart_toStartOf="0"/>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
