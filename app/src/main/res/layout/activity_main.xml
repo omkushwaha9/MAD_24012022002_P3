@@ -18,6 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/buttonbrowse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
@@ -35,6 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
+        android:id="@+id/buttoncall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
@@ -52,6 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
+        android:id="@+id/buttoncalllog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
@@ -69,6 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
+        android:id="@+id/buttongallery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
@@ -86,6 +90,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
+        android:id="@+id/buttonCamera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
@@ -103,6 +108,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
+        android:id="@+id/buttonAlarm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
@@ -120,12 +126,38 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
+        android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
         android:text="Login"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="140dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        tools:layout_editor_absoluteY="89dp"
+        android:text="https:://www.google.com"
+        android:textSize="11dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="138dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toStartOf="@+id/buttoncall"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:layout_editor_absoluteY="126dp"
+        android:text="999999999"
+        android:textSize="11dp"/>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
